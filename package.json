@@ -1,0 +1,15 @@
+{
+  "name": "acn",
+  "version": "1.0.0",
+  "description": "ACN - API de Conversion sur NodeJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "William Breton, Micka Levert, Joshua Simoneau",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
