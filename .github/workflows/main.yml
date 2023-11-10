@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Stop docker
         run: docker stop $(docker ps -a -q)
+      - name: Pull repo from GitHub
+        uses: actions/checkout@v4
       - name: build image
         run: docker build -t ucn:docker .\
       - name: Start docker
