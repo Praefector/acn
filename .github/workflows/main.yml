@@ -14,7 +14,9 @@ jobs:
     runs-on: self-hosted
     steps:
       - name: Stop docker
-        run: docker stop $(docker ps -a -q)
+        run: docker stop ucn
+      - name: Delete old container
+        run: docker rm ucn
       - name: Pull repo from GitHub
         uses: actions/checkout@v4
       - name: build image
