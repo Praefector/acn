@@ -1,17 +1,21 @@
-name: Deploy workflow
+name: Deploy Dockerfile
+
 on:
+  push:
+    branches:
+      - main  
+  pull_request:
+      branches:
+      - main
   workflow_dispatch:
 
 jobs:
-    build:
-
-         runs-on: self-hosted
-
-         steps:
-         - uses: actions/checkout@v3
-         - name: Use Node.js 12.x
-         - uses: actions/setup-node@v3
-           with:
-            node-version: 12.x
-         - run: npm install
-         - run: sudo node index.js &
+  build:
+    runs-on: self-hosted
+    steps:
+      - name: Stop docker
+        run: docker ps -aq | xargs docker stop | xargs docker rm
+      - name: build image
+        run: docker build -t ucn:docker .\
+      - name: Start docker
+        run: docker run --name ucn -d -p 8000:8000 ucn:docker
