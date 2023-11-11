@@ -8,7 +8,7 @@ const port = 8000;
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.send("<html><head>Server Response</head><body><h1>ACN - API de Conversion sous NodeJS</h1><p>Projet 2 - Exploration de Nouvelles Technologies</p></body>");
+    res.send("<html><head>Server Response</head><body><h1>ACN - API de Conversion sous NodeJS</h1><p>Projet 2 - Exploration de Nouvelles Technologies</p></body></html>");
 });
 
 
