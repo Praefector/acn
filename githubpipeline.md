@@ -5,14 +5,16 @@ Ce fichier markdown expliquera chaque ligne de code pour la pipeline github
 
 ```yaml
  name: Deploy Dockerfile                #Nom de la pipeline
-on:
-  push:                                 # Faut une push request sur la branche main
+
+on:                                     # Éxécute l'action sur :
+  push:                                 # un push sur la branche main
     branches:
      - main  
-  pull_request:                         # Fait une pull request sur la branche main
+  pull_request:                         # une pull request vers la branche main
       branches:
       - main
-  workflow_dispatch:                    # Fait le dispatch des lignes en haut
+  workflow_dispatch:                    # Manuellement
+  
 jobs:                                   # Commande qui détermine les commande pour la pipeline
   build:
     runs-on: self-hosted                # Dis sur quel type de host que la pipeline recoit
