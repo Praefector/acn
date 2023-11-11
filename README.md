@@ -71,7 +71,7 @@ Aucun
 
 **Erreurs possibles :**
 
-*400* - Veuillez fournir une valeur en Celsius dans le corps de la requête.
+*400* - Veuillez fournir une valeur en Celsius valide dans le corps de la requête.
 
 ### POST - /fahrenheitToCelsius
 
@@ -93,7 +93,7 @@ Aucun
 
 **Erreurs possibles :**
 
-*400* - Veuillez fournir une valeur en Fahrenheit dans le corps de la requête.
+*400* - Veuillez fournir une valeur en Fahrenheit valide dans le corps de la requête.
 
 ### POST - /meterToFeet
 
@@ -115,7 +115,7 @@ Aucun
 
 **Erreurs possibles :**
 
-*400* - Veuillez fournir une valeur en metres dans le corps de la requête.
+*400* - Veuillez fournir une valeur en metres valide dans le corps de la requête.
 
 ### POST - /feetToMeter
 
@@ -137,7 +137,7 @@ Aucun
 
 **Erreurs possibles :**
 
-*400* - Veuillez fournir une valeur en pieds dans le corps de la requête.
+*400* - Veuillez fournir une valeur en pieds valide dans le corps de la requête.
 
 ### POST - /kgToLbs
 
@@ -159,7 +159,7 @@ Aucun
 
 **Erreurs possibles :**
 
-*400* - Veuillez fournir une valeur en kilogrammes dans le corps de la requête.
+*400* - Veuillez fournir une valeur en kilogrammes valide dans le corps de la requête.
 
 ### POST - /lbsToKg
 
@@ -181,7 +181,7 @@ Aucun
 
 **Erreurs possibles :**
 
-*400* - Veuillez fournir une valeur en livres dans le corps de la requête.
+*400* - Veuillez fournir une valeur en livres valide dans le corps de la requête.
 
 ### POST - /literToGallon
 
@@ -203,7 +203,7 @@ Aucun
 
 **Erreurs possibles :**
 
-*400* - Veuillez fournir une valeur en litres dans le corps de la requête.
+*400* - Veuillez fournir une valeur en litres valide dans le corps de la requête.
 
 ### POST - /gallonToLiter
 
@@ -225,7 +225,7 @@ Aucun
 
 **Erreurs possibles :**
 
-*400* - Veuillez fournir une valeur en gallons dans le corps de la requête.
+*400* - Veuillez fournir une valeur en gallons valide dans le corps de la requête.
 
 ### POST - /CADTOYEN
 
@@ -247,7 +247,7 @@ Aucun
 
 **Erreurs possibles :**
 
-*400* - Veuillez fournir une valeur en CAD dans le corps de la requête.
+*400* - Veuillez fournir une valeur en CAD valide dans le corps de la requête.
 
 ### POST - /YENTOCAD
 
@@ -269,7 +269,7 @@ Aucun
 
 **Erreurs possibles :**
 
-*400* - Veuillez fournir une valeur en YEN dans le corps de la requête.
+*400* - Veuillez fournir une valeur en YEN valide dans le corps de la requête.
 
 
 
