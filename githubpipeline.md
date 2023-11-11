@@ -3,7 +3,7 @@
 Ce fichier markdown expliquera chaque ligne de code pour la pipeline github
 
 
-```dockerfile 
+```yaml
  name: Deploy Dockerfile                #Nom de la pipeline
 on:
   push:                                 # Faut une push request sur la branche main
